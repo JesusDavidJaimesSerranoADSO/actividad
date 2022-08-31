@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2? family= Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200; 1300;1400;1500;1600;1700;1800;1900 & mostrar=intercambiar');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+.banner{
+    display: grid;
+    grid-template-columns: 3fr 4fr;
+}
+.banner .box{
+    position: relative;
+    background: #131f37;
+    height: 100vh;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo img{
+    max-width: 200px;
+}
+header ul{
+    display:flex ;
+}
+header ul li a{
+    text-decoration: none;
+    font-weight: 500;
+    color:rgba(255, 255, 255,0.5)
+}
+header ul li a:hover{
+    color:rgba(255, 255, 255,1);
+    letter-spacing: 1px;
+}
+.banner .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+.banner .content .contentBox{
+    text-align: center;
+}
+.banner .content .contentBox img{
+    width: 100%;
+}
+.banner .content .contentBox p{
+    font-size: 1.2em;
+    color: #fff;
+    font-weight:300px;
+}
+.banner .content .contentBox .btn{
+    display: inline-block;
+    font-size: 1.1em;
+    color: #333;
+    background: #fff;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 30px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.banner .content .contentBox .btn:hover{
+    letter-spacing: 2px;
+}
+.sci{
+    posicion:absolute;
+    bottom: 30px;
+    right: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sci h3{
+    font-weight: 500;
+}
